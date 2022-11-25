@@ -1,12 +1,19 @@
 # Module_Federation_NextJS
 
-Step: 1
+### Step: 1
+
+
 open /home && npm i && npm run dev
+
+
+
 open /shop && npm i && npm run dev
 
-Validate: 
 
-Footer and Header components from Home project are exposed to SHOP project
+
+### Notice: 
+
+Footer and Header components from Home project are exposed to SHOP project by adding below code
 
 Code snippet : 
         exposes: {
@@ -15,7 +22,7 @@ Code snippet :
         },
 
 
-Catalog page from SHOP is exposed to HOME 
+Catalog page from SHOP is exposed to HOME  by adding below code
 
 Code snippet : 
      extraOptions: {
